@@ -11,7 +11,7 @@ Module SayMyName
         name = Console.ReadLine()
         Console.WriteLine("Hello there " & name & ". What are you doing?")
         Console.ReadLine()
-        Console.Write("Lame!!! Press enter please.")
+        Console.Write("That sounds boring! " & name & ", can you press ENTER please so that I can go back to sleep?")
         Console.Read()
     End Sub
 
