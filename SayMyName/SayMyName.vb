@@ -9,9 +9,10 @@ Module SayMyName
         Dim name As String
         Console.WriteLine("Hello there. What's your name?")
         name = Console.ReadLine()
-        Console.Write("Hello there " & name)
+        Console.WriteLine("Hello there " & name & ". What are you doing?")
+        Console.ReadLine()
+        Console.Write("Lame!!! Press enter please.")
         Console.Read()
-
     End Sub
 
 End Module
