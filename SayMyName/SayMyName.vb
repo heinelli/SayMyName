@@ -8,13 +8,13 @@ Option Explicit On
 Option Strict On
 Module SayMyName
     Sub Main()
-        Dim name As String
+        Dim name As String  'A variable called "name" is created
         Console.WriteLine("Hello there. What's your name?")
-        name = Console.ReadLine()
+        name = Console.ReadLine()   'User input is saved as the variable "name"
         Console.WriteLine("Hello there " & name & ". What are you doing?")
-        Console.ReadLine()
+        Console.ReadLine()  'Creates delay so that user can type response
         Console.Write("That sounds boring! " & name & ", can you press ENTER please so that I can go back to sleep?")
-        Console.Read()
+        Console.Read()  'Creates delay so that user can press ENTER.
     End Sub
 
 End Module
