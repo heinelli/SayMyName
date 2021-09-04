@@ -3,8 +3,10 @@
 'Fall 2021
 'Say My Name
 '
-Module SayMyName
 
+Option Explicit On
+Option Strict On
+Module SayMyName
     Sub Main()
         Dim name As String
         Console.WriteLine("Hello there. What's your name?")
