@@ -6,7 +6,7 @@
 
 Option Explicit On
 Option Strict On
-Option Compare Text
+Option Compare Text 'Tells program to read uppercase and lowercase text
 Module SayMyNameAgain
     Sub Main()
         Dim name As String  'A variable called "name" is created
@@ -22,5 +22,4 @@ Module SayMyNameAgain
         Console.WriteLine("Press ENTER to quit")
         Console.Read()  'Creates delay so that user can press ENTER.
     End Sub
-
 End Module
