@@ -2,7 +2,7 @@
 'RCET0265
 'Fall 2021
 'Say My Name
-'https://github.com/heinelli/SayMyName.git
+'https://github.com/heinelli/SayMyName.git  (Branch titled "SayMyNameAgain")
 
 Option Explicit On
 Option Strict On
