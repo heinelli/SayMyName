@@ -6,6 +6,7 @@
 
 Option Explicit On
 Option Strict On
+
 Module SayMyName
     Sub Main()
         Dim name As String  'A variable called "name" is created
@@ -13,7 +14,8 @@ Module SayMyName
         name = Console.ReadLine()   'User input is saved as the variable "name"
         Console.WriteLine("Hello there " & name & ". What are you doing?")
         Console.ReadLine()  'Creates delay so that user can type response
-        Console.Write("That sounds boring! " & name & ", can you press ENTER please so that I can go back to sleep?")
+        Console.Write("That sounds boring! " & name & ", can you press ENTER _
+please so that I can go back to sleep?") 'Line length <= 80 char - TJR
         Console.Read()  'Creates delay so that user can press ENTER.
     End Sub
 
